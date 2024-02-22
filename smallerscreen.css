@@ -1,0 +1,8 @@
+@media screen and (min-width:300px) and (max-width:450px) {
+    .project-done{
+        transform: translateX(10px);
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        overflow-y: scroll;
+    }
+}

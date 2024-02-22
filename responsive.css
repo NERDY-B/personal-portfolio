@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 768px) {
+    .des{
+        font-size: .9rem;
+        width: 30%;
+    }
+    .further-info{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .project-done{
+        transform: translateX(10px);
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        overflow-y: scroll;
+    }
+    .contact-container{
+        top: 100em;
+        height: 35rem;
+    }
+    .contact-icon{
+        display: block;
+        margin-top:35%;
+    }
+    .contact-icon h2{
+        text-align: center;
+    }
+    .contact-icon div i{
+        /* text-align: center; */
+        margin-left: 45%;
+    }
+    .my-img img{
+        left: 40%;
+    }
+    .userprofile{
+        position: relative;
+        z-index: 2;
+        top:10rem;
+        width: 100%;
+
+    }
+    .my-info{
+        position: relative;
+        width: 90%;
+        top:90%;
+        margin: auto;
+        transform: translateX(-55%);
+    }
+    .proj-done-section{
+        top: 70%;
+    }
+  }
